@@ -1,0 +1,29 @@
+footer{
+    border-top: 1px solid rgb(161, 161, 161);
+    min-height: 30vh;
+    background-color: rgb(0, 41, 80);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 100px 20%;
+    position: relative;
+}
+.footer__column{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+.footer__column span{
+    display: block;
+    color: #fff;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.footer__copyright{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
