@@ -1,0 +1,131 @@
+.career{
+    // background-color: #123;
+    position: relative;
+    padding: 0px 0 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 100px auto;
+    h2,h3{
+        text-transform: uppercase;
+    }
+
+    .career__header{
+        padding: 50px 0;
+        color: rgb(56, 56, 56);
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .career__header--benefits{
+            margin: 20px 0;
+            width: 55%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            div{
+                width: 30%;
+                height: 45%;
+                background-color: #d68100;
+                border-radius: 20px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                i{
+                    font-size: 50px;
+                    color: #fff;
+                    margin-top: 30px;
+                }
+                span{
+                    display: block;
+                    color: #fff;
+                    margin-bottom: 30px;
+               }
+            }
+        }
+        img{
+            // position: absolute;
+            // margin-top: 50px;
+            width: 40%;
+            // margin-left: 50%;
+            // transform: translateX(-50%);
+            &::before{
+                content: "Chcesz dołączyć do naszego zespołu?";
+                position: absolute;
+                top: 0;
+                left: -50px;
+                font-size: 30px;
+                color: #d68100;
+            }
+            &::after{
+                content: "Być może szukamy właśnie Ciebie!";
+                position: absolute;
+                top: 0;
+                left: -50px;
+                font-size: 30px;
+                color: #d68100;
+            }
+        }
+    }
+
+    .career__offer{
+        width: 100%;
+        position: relative;
+        line-height: 50px;
+        display: flex;
+        justify-content: space-between;
+        // padding: 10px 20px;
+        text-align: left;
+        div{
+            width: 100%;
+            // padding: 50px 0;
+            // border-bottom: 1px solid #000;
+            span{
+                color: #d68100;
+                font-weight: bold;
+                width: 300px;
+                font-size: 30px;
+            }
+            ul{
+
+            }
+            a{
+                display: block;
+                margin-top: 20px;
+                padding: 20px 30px;
+                background-color: #d68100;
+                width: 200px;
+                border-radius: 10px;
+                text-align: center;
+                text-decoration: none;
+                color: #fff;
+                // margin-left: calc( 50% - 150px )
+                // transform: translateX(-50%);
+            }
+        }
+        .offer__choice{
+            position: sticky;
+            height: 250px;
+            top: 20px;
+            padding-left: 10px;
+            // text-align: center;
+            width: 500px;
+            // padding: 20px 0px;
+            background-color: rgb(248, 248, 248);
+            span{
+                font-size: 20px;
+                display: block;
+                color: #d68100;
+                font-weight: 300;
+                cursor: pointer;
+                margin: 10px 0;
+                border: 0;
+                &:hover{
+                    padding-left: 20px;
+                }
+            }
+        }
+
+    }
+}

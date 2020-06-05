@@ -1,0 +1,19 @@
+.description__item{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    .item__row{
+        width: 80%;
+        margin: 50px auto;
+        display: flex;
+        justify-content: space-between;
+        img{
+            width: 30%;
+        }
+        .item__row--text{
+            width: 60%;
+            
+        }
+    }
+
+}

@@ -1,0 +1,15 @@
+.contact__form {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.contact__form form .form .form__labels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact__form form label {
+  border: 0;
+}
+/*# sourceMappingURL=form.css.map */

@@ -1,0 +1,81 @@
+.welcome {
+  height: 60vh;
+}
+
+.welcome .welcome_post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.welcome .welcome_post .welcome__post--image {
+  width: 45%;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.welcome .welcome_post .welcome__post--image img {
+  width: 100%;
+}
+
+.welcome .welcome_post .welcome__post--text {
+  color: #fff;
+  width: 45%;
+}
+
+.welcome .welcome_post .welcome__post--text h3 {
+  font-size: 30px;
+}
+
+.welcome .welcome_post .welcome__post--text span {
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.welcome .welcome_post .welcome__post--text a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.blog {
+  margin: 0;
+  padding: 50px 0;
+}
+
+.blog__item {
+  margin-top: 50px;
+}
+
+.blog__item .blog__item--image {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.post {
+  position: relative;
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.post img {
+  width: 60%;
+  margin: 50px 20%;
+}
+
+.post span {
+  margin: 50px 0;
+}
+/*# sourceMappingURL=blog.css.map */

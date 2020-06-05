@@ -1,0 +1,14 @@
+.map {
+  width: 100%;
+  height: 70vh;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.contact__box {
+  margin: 0;
+}
+/*# sourceMappingURL=kontakt.css.map */
